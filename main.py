@@ -7,7 +7,7 @@ api_id = int(os.getenv("API_ID", "39864754"))
 api_hash = os.getenv("API_HASH", "254da5354e8595342d963ef27049c772")
 
 SOURCE_CHAT = -1003808609180   # جروب المصدر
-TARGET_CHAT = -1003874437667   # جروبك
+TARGET_CHAT = -1003780430452   # جروبك
 
 HEADER_TEXT = "Collect Code✨❤️"
 # ==============================================
