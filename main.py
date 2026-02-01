@@ -13,7 +13,7 @@ TARGET_CHAT = -1003886484488  # جروبك
 HEADER_TEXT = "Collect Code✨❤️"
 # ==============================================
 
-client = TelegramClient("session", api_id, api_hash)
+client = TelegramClient("selvasession", api_id, api_hash)
 
 # قائمة لتخزين معرفات الرسائل المرسلة حتى نحذفها لاحقًا
 sent_messages = []
