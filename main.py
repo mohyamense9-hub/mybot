@@ -4,8 +4,8 @@ import re
 import asyncio
 
 # ================== الإعدادات ==================
-api_id = int(os.getenv("API_ID", "39864754"))
-api_hash = os.getenv("API_HASH", "254da5354e8595342d963ef27049c772")
+api_id = int(os.getenv("API_ID", "38460443"))
+api_hash = os.getenv("API_HASH", "5ee35420f38f9fe6915f3606fb353fb9")
 
 SOURCE_CHAT = -1003808609180   # جروب المصدر
 TARGET_CHAT = -1003886484488  # جروبك
@@ -13,7 +13,7 @@ TARGET_CHAT = -1003886484488  # جروبك
 HEADER_TEXT = "Collect Code✨❤️"
 # ==============================================
 
-client = TelegramClient("selvasession", api_id, api_hash)
+client = TelegramClient("okay", api_id, api_hash)
 
 # قائمة لتخزين معرفات الرسائل المرسلة حتى نحذفها لاحقًا
 sent_messages = []
